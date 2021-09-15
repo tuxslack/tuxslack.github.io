@@ -1,0 +1,48 @@
+
+Windows 11 será lançado no dia 5 de outubro de 2021 para todos os usuários
+
+
+
+O Windows 11 estará disponível para todos os usuários a partir do dia 5 de outubro, como uma 
+atualização gratuita para o Windows 10, desde que o PC tenha os requisitos mínimos exigidos pela 
+Microsoft. A empresa anunciou que o novo sistema operacional também será incluído em novos 
+desktops e notebooks fabricados após o seu lançamento.
+
+
+Os usuários receberão o update em fases, que ocorrerão ao longo dos próximos meses. De acordo com o 
+gerente geral de marketing do Windows Aaron Woodamn, todos os computadores irão receber o Windows 11 
+até meados de 2022, em uma experiência similar ao que aconteceu nos grandes updates do Windows 10, 
+sistema operacional que a Microsoft anunciou o fim do suporte para 2025.
+
+De acordo com os requisitos de sistema divulgados em junho, o Windows 11 vai precisar de um PC com 
+CPU de no mínimo 1 GHz e 64-bits, com dois núcleos, 4 GB de memória RAM, além de compatibilidade com 
+DirectX 12 e WDDM 2.x. Também será necessário tela com resolução HD (1280 x 720 pixels), maior do que 
+9 polegadas, e suporte ao “Secure Boot”, para iniciar o sistema. A Microsoft divulgou um teste para 
+os usuários verificarem os requisitos e a compatibilidade do Windows 11.
+
+
+O anúncio do novo software causou polêmica entre os usuários do Windows por conta da exigência do chip 
+de segurança física TPM 2.0, que não está disponível em todas as placas-mãe atuais. De fato, apenas os 
+PCs mais caros e avançados possuem tal tecnologia disponível no momento. Por outro lado, de acordo com 
+um documento vazado, a Microsoft poderia não exigir TPM 2.0 em alguns casos, permitindo a instalação do 
+sistema em um PC mais antigo.
+
+Os usuários que quiserem testar a compatibilidade com o novo sistema operacional também podem realizar 
+verificação através do programa PC Health Check, da própria Microsoft. Entretanto, todos os computadores 
+aptos receberão um aviso pelo Windows Update do Windows 10, assim como acontece com outras atualizações 
+menores.
+
+Os principais destaques do novo Windows 11 é o suporte nativo aos aplicativos Android, a renovação da 
+Windows Store e o novo aspecto visual, com os ícones e o tradicional botão Iniciar dispostos de forma 
+centralizada na barra de tarefas. O TechTudo separou uma lista com cinco destaques do novo sistema da 
+Microsoft.
+
+O Windows 11 também terá maior integração com o Xbox Game Pass, painel de widgets, além do Microsoft 
+Teams totalmente incorporado ao sistema e outras aplicações com foco em produtividade.
+
+
+
+Fonte:
+
+https://www.soluciomatica.com.br/blog/windows-11-sera-lancado-no-dia-5-de-outubro-para-todos-os-usuarios/
+
