@@ -1,0 +1,56 @@
+
+
+Veja o que acontece quando não há manutenção e cuidados com o Computador ou Notebook.
+
+
+
+-FALTA DE LIMPEZA DOS EQUIPAMENTOS
+
+Quando não é feita a limpeza dos equipamentos, a poeira se acumula e consequentemente ocorre uma 
+série de problemas, como por exemplo, a queima do processador ou até da placa-mãe.
+
+
+-FALTA DE DE INSTALAÇÃO E/OU ATUALIZAÇÃO DO ANTIVÍRUS
+
+Computadores, notebooks e servidores sem uma ferramenta de segurança contra ameaças (vírus, spyware...), 
+além de gerar riscos, comprometem as informações sigilosas da empresa. Por isso é de extrema importância 
+que equipamentos tenham um antivírus instalado com todas as atualizações em dia.
+
+
+-SISTEMA OPERACIONAL DESATUALIZADO
+
+É de extrema importância que o Sistema Operacional - Windows, Linux, MacOS - esteja atualizado, porque 
+existem inúmeros vírus que podem comprometer o funcionamento do computador, podendo levar o equipamento a 
+não ligar, ou não carregar o Sistema Operacional, danificar definitivamente um periférico, como o HD, a 
+Memória, entre outros componentes responsáveis pelo funcionamento do Computador.
+
+
+-INSTALAÇÃO DE SOFTWARES DESNECESSÁRIOS   
+
+O excesso de softwares instalados contribuem para a lentidão do computador. Alguns iniciam junto com o Sistema Operacional, 
+o que deixa o computador mais lento. É importante que seja verificado quais os programas realmente são necessários, e 
+desinstalar aqueles que não são mais utilizados.
+
+
+-GERENCIAMENTO INADEQUADO DE E-MAILS
+
+Utilizar softwares de e-mails facilitam o trabalho, como um bom exemplo, o Outlook, usado pela grande maioria das empresas. 
+Mas se não houver uma boa administração dos e-mails o gerenciador pode começar a dar erros, causando lentidão, tornando-se 
+também inevitável o desaparecimento de alguns e-mails. É muito importante organizar e-mails em pastas, nunca deixar muitos 
+e-mails em apenas uma pasta e manter a caixa de entrada sempre com o mínimo de e-mails.
+
+
+-FALTA DE BACKUP
+
+O computador é suscetível a falhas. Existem informações de alto valor, como por exemplo documentos pessoais, e-mails, 
+dados de sistemas, entre outros. Já pensou, se dados ou documentos importantes são perdidos ou excluídos indevidamente? 
+O backup é muito importante, principalmente para empresas, seja feito de forma automática ou manual.
+
+
+-QUEDA CONSTANTE DE ENERGIA
+
+Mais um motivo para a realização de manutenção preventiva é a queda constante ou oscilação de energia, que é um risco 
+para computadores, podendo durante a ocorrência queimar a placa-mãe entre outros componentes do equipamento. Como 
+prevenção, devem ser usados no-breaks e estabilizadores, que tem como principal objetivo evitar esses tipos de problemas.
+
+
