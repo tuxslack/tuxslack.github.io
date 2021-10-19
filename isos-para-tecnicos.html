@@ -164,8 +164,142 @@ Faça uma verificação do sistema no PC e siga as instruções na tela.
 
 # ================================================================ <br> <br>
 
+<pre>
+<b>* HDD Regenerato</b>
+
+Teste de HD ruim
+HD com Bad Block (setores defeituosos de um HD)
+HD corrompido por uma queda de energia e não liga.
+
+
+HDD Regenerator é um programa desenvolvido por Dmitriy Primochenko. 
+
+Dependendo do defeito, o programa pode demorar até umas 4 horas o normal... Mas vi casos que demorou 4 dias.
+
+
+É POSSÍVEL RECUPERAR DADOS DE HD’S COM HDD REGENERATOR?
+ 
+
+HDD Regenerator é um programa que supostamente consegue recuperar dados de HD com bad blocks, 
+HD lento na leitura dos dados ou que estejam em modo RAW. Existem vários vídeos no Youtube 
+sobre ele, mas será verdade? Recuperar um HD com problemas corrompido com setores ruins pode 
+ser um serviço caro. Por causa disso, muitas pessoas procuram na Internet soluções caseiras 
+que supostamente funcionaram para recuperar os seus dados.
+
+O Youtube possui muitos vídeos postados por amadores ensinando a recuperar dados de HD a 
+custo zero. Infelizmente, o Youtube é uma plataforma aberta onde qualquer um pode publicar 
+quase tudo o que quiser. Não existem moderadores para checar se as informações do vídeo são 
+verdadeiras ou não.
+
+Quase todo HD já vêm de fábrica com alguns bad sectors. Sabendo disso, os fabricantes 
+reservam um certo número de setores para remapeamento. Quando um setor ruim é encontrado, 
+ele é marcado como bad. Se for possível a leitura, mesmo que instável, as informações 
+contidas nele são copiadas para um dos setores reserva. Se estiver ilegível, você perdeu 
+os dados gravados naquele setor.
+
+Quando todos os setores reserva são utilizados, os bad blocks começam a aparecer no HD. 
+O que o HDD Regenerator tenta fazer é uma re-leitura dos setores ruins e marcá-los como 
+se estivessem bons. Se não consegue, ele os marca como defeituosos e os remove do índice 
+do disco. Com isso, a capacidade real do HD será levemente reduzida também, pois eles 
+serão subtraídos da capacidade total do disco.
+
+Ele fará múltiplos acessos seqüenciais nos bad blocks tentando "regenerá-los". É aqui 
+que está o grande problema deste tipo de software. Se a mídia ou a cabeça de leitura 
+estiverem instáveis, o programa poderá fazer dezenas ou talvez centenas de tentativas 
+antes de tentar regenerar os setores. Após alguns tempo, simplesmente o HD poderá 
+parar de responder!
+
+Se sua intenção é recondicionar um HD antigo com poucos bad blocks para gravar arquivos 
+poucos importantes, o HDD Regenerator poderá servir para esta função. O HDD Regenerator 
+realmente não funciona para consertar setores. Ele apenas sobrescreve estes setores 
+com algum tipo de informação. Este programa poderia ajudá-lo a reparar setores, mas 
+destruirá o seu conteúdo.
+
+Se você não precisa de dados e quer apenas tentar reparar a unidade, então você pode 
+tentar usar o HDD Regenerator, mas somente se houver muito poucos setores defeituosos. 
+Caso contrário, você apenas estressará as cabeças de leitura e as matará. Novos setores 
+defeituosos podem aparecer de novo muito facilmente e seria apenas uma perda de 
+tempo. Pelo preço atual dos HDs, se você tiver certeza que seu HD tem bad blocks, 
+é aconselhável descartá-lo e comprar um novo disco.
+
+
+POR QUE HDD REGENERATOR NÃO RECUPERA DADOS?
+
+SpinRite, HDD Regenetor ou DRevitalize não podem restaurar ou recuperar informações 
+de setores danificados. Eles "consertam" um disco reformatando seletivamente setores 
+defeituosos ou estimulando o firmware a remapeá-los novamente. Esses setores defeituosos 
+que fariam com que o firmware do disco retornasse um código de erro, agora estão "restaurados".
+
+Não cometa erros. Os dados nesses setores reparados, reformatados, re-mapeados não são os dados 
+originais que estavam lá antes do(s) setor(es) ficarem danificados. Esses setores defeituosos 
+podem aparecer por uma falha de energia ou defeito físico na mídia. Se isso ocorreu durante a 
+gravação, os dados já estão perdidos para sempre. E esses programas zerarão esses setores para você.
+
+Mas qualquer que seja o arquivo que estivesses gravados nesses setores, agora ele estará corrompido. 
+E essa é a extensão da capacidade desses programas. Para o usuário final, basta preencher os espaços 
+com bad blocks com bits aleatórios ou zeros. E o HDD e o firmware estarão felizes novamente. O 
+usuário poderá ler o HD sem erros de CRC, a unidade não "trava" mais e a vida continua!
+
+A parte triste é que as pessoas acham que o arquivo que estava causando o problema agora está 
+novamente bom. No caso de um grande arquivo como um vídeo, pode estar tudo bem com um frame 
+corrompido ou um pouco de áudio estático. No caso de uma planilha, fotos, arquivos compactados 
+zip, documentos ou executáveis, esqueça. O arquivo pode ler o disco novamente, mas o conteúdo 
+não é mais válido. Um bit fora do lugar, e estes arquivos poderão estar perdidos para sempre.
+
+Programas como SpinRite (e HDD Regenerator e Drevitalize) foram relevantes anos atrás. Estamos 
+falando de discos do início dos anos 80. Eles resolviam problemas reais relacionados ao alinhamento 
+e às forças do campo magnético. Expansões de temperatura, trilhos não circulares e tudo que o 
+moderno atuador de bobina de voz é capaz de compensar, mas o atuador linear não.
+
+
+O QUE FAZER QUANDO O HDD REGENERATOR NÃO FUNCIONA?
+
+Portanto, esses programas não se aplicam realmente aos discos de hoje. Exceto para re-formatar 
+seletivamente, re-mapeando um único setor. E consertar uma falha lógica nesse ponto de reparo. 
+Ou seja, certificando-se de checksum do setor concorda com o seu conteúdo. O fato de que Spinrite 
+(e outros) ainda estarem no mercado significa que os autores ainda estão tentando vendê-los para 
+obter lucros. E as pessoas, quando perdem seus dados, estão procurando uma solução mágica a baixo custo.
+
+Este tipo de programa ajuda na recuperação de dados corrompidos? Não, ele apenas "repara" ou "reformata" 
+setores. Isso é verdade. Esses programas fazem com que um setor ruim possa muitas vezes ser lido novamente. 
+Um arquivo que tem um setor defeituoso normalmente desliga o firmware, causando erros. Com um setor 
+seletivamente re-formatado ou “zerado”, o arquivo agora pode ser lido novamente. Os dados foram recuperados! 
+É legível novamente! Mas agora você tem um arquivo corrompido com alguns zeros ou outros dados arbitrariamente 
+escolhidos inseridos.
+
+Entretanto, se você precisa dos dados gravados, a melhor solução é procurar uma empresa de recuperação 
+de dados. Para recuperar dados de setores defeituosos (bad blocks) você precisa de ferramentas como Deepspar, 
+Data Extractor, Atola, etc. Estas ferramentas profissionais podem lidar com a recuperação de setores 
+defeituosos de muitas maneiras diferentes (pulando setores defeituosos, ajustando o tempo de acesso, número 
+de tentativas de leitura, ignorar ECC ou CRC, recalibração etc.).
+
+Mesmo com essas ferramentas profissionais não é possível recuperar todos os setores defeituosos, mas com 
+certeza será recuperado tudo que for possível. Se você precisa recuperar dados de HDs com bad blocks, 
+acesse  <a href="www.e-recovery.com.br">www.e-recovery.com.br</a> e solicite um orçamento gratuito 
+para o seu caso.
+
+
+
+Endereço:
+
+Av. Prof. Noé de Azevedo 208 cj. 65 - Vila Mariana - São Paulo/SP - Brasil - CEP 04117-000
+
+11-3422-0066 / 93075-5919
+
+contato@e-recovery.com.br
+
+
+https://www.e-recovery.com.br/blog/recuperacao-de-dados-hdd-regenerator/
+
+
+</pre>
+
+<a href="https://www.youtube.com/watch?v=4QEPnvZjVx8"> HDD Regenerator - video aula</a> <br> <br>
+<a href="https://www.mediafire.com/file/a4cv9695bginlla/HDD_Regenerator_2011.rar/file"> HDD Regenerator</a> <br> <br>
+
+# ================================================================ <br> <br>
+
 <a href="http://www.mediafire.com/file/in4kz1d9y6v23at/Positivo_Motion_Q_232A.iso/file"> Positivo Motion Q 232A </a> <br>
-<a href="https://www.mediafire.com/file/a4cv9695bginlla/HDD_Regenerator_2011.rar/file"> HDD Regenerator</a> <br>
 <a href="https://www.mediafire.com/file/r6ovxcdklr759oh/caixamagica-23-desktop-amd64-gnome-dvd.iso/file?ssl=1"> Linux Caixa Mágica</a> <br> <br> 
 
 # ================================================================ <br> <br>
