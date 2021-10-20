@@ -11,6 +11,47 @@ kit de ferramentas eficaz, com programas que facilitem o trabalho de manutençã
 Para lhe ajudar a melhorar o seu kit de ferramentas de manutenção, selecione os programas gratuitos 
 para realizar a manutenção de computadores. A maioria dos programas está disponível em versão portátil.
 
+
+
+
+O que é boot Legacy ou UEFI?
+
+
+O Firmware é o software que atua como uma interface entre o hardware (placa-mãe) e o sistema operacional. 
+O modo Legacy refere-se ao firmware do BIOS. Embora ainda esteja amplamente presente, os computadores 
+evoluíram tremendamente e o BIOS não consegue fornecer recursos avançados do hardware moderno. 
+O Suporte Legado (Legacy Support) é compatível com o Windows 10, porém, é necessário utilizar o 
+particionamento MBR. 
+
+A Interface de Firmware Extensível Unificada (UEFI) é o sucessor da BIOS. UEFI usa a tabela de 
+partição GUID (GPT) enquanto a BIOS usa o esquema de partição MBR (Master Boot Record). GPT e 
+MBR são ambos os formatos que especificam informações de particionamento físico no disco rígido. 
+
+Abaixo eu listei a diferença:
+
+
+1. O tamanho máximo da partição em MBR é 2TB enquanto no GPT é 1 ZetaByte;
+2. O MBR pode ter no máximo 4 partições primárias, enquanto a GPT pode ter 128;
+3. O MBR pode armazenar apenas um carregador de inicialização, enquanto a GPT possui uma Partição 
+de Sistema EFI dedicada (ESP) separada para armazenar vários carregadores de inicialização.  
+Isso é muito útil se você tiver dois ou mais sistemas operacionais que exigem mecanismos de 
+inicialização diferentes;
+
+4.  UEFI oferece boot seguro (Secure boot) proteção contra malware e rootkits, que operam em 
+ambiente pré-boot;
+
+5. Inicializa mais rapidamente;
+6. Fornece ao utilizador uma interface gráfica mais avançada;
+
+7. Fornece uma interface modular, independente da arquitetura do CPU e também para 
+aplicações e dispositivos baseados em drivers EFI (o chamado EBC - EFI Byte- Code)
+
+
+Se o seu equipamento tem disponível o UEFI, é a melhor opção. 
+
+
+https://answers.microsoft.com/pt-br/windows/forum/all/uefi-ou-legacy-windows-10/7e02a846-220a-4af3-b927-9a4a837a33da
+
 </pre>
 
 
@@ -50,7 +91,7 @@ necessários serão listados.
 
 <a href="https://www.youtube.com/watch?v=8CHo2RDW8dU">DLC boot - video aula</a> <br> <br>
 
-<a href="https://www.mediafire.com/file/dz3nvz1hpttirm3/DLC19.iso/file?ssl=1"> DLC Boot 19</a> (arquivo baixado) <br>
+<a href="https://www.mediafire.com/file/dz3nvz1hpttirm3/DLC19.iso/file?ssl=1"> DLC Boot 19 (UEFI)</a> (arquivo baixado) <br>
 
 <a href="https://www.mediafire.com/file/n932qp6s1asx74p/DLClegacy.iso/file?ssl=1">DLC boot (Legacy)</a> <br>
 
